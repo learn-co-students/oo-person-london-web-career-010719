@@ -1,8 +1,8 @@
 require 'pry'
 
 class Person
-  attr_accessor :bank_account, :happiness, :hygiene, :initialize
-  attr_reader :name
+  attr_accessor :bank_account
+  attr_reader :name, :happiness, :hygiene # <- getter / / setter is written below
 
   def initialize(name)
     @name = name
